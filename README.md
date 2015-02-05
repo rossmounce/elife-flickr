@@ -1,6 +1,8 @@
 elife-flickr
 ============
 
+Test change
+
 An adaption of my workflow for BMC journals https://github.com/rossmounce/Trying-beautiful-soup  
 
 eLife figure numbering is ~~*really* annoying~~ more complex than at other journals. One can't simply iterate (which works fine for PeerJ & BMC journals). The ~~strange~~ supplementary sub-figures are the problem, e.g. where figure-7-supp-1 == F8.jpg, my simpleton scripts do not account for this and will dumbly embed the figure caption for figure 8 into F8.jpg but actually the image for figure 8 may be in F9.jpg. Pull requests to fix that would be greatfully appreciated. Probably easiest to fix at the figure download, file-naming stage. Need to fix that at some point if I'm to systematically embed the correct caption in the correct figure image.
